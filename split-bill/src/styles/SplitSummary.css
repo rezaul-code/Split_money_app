@@ -1,0 +1,22 @@
+.split-summary {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .summary-breakdown, .share-link {
+    margin-bottom: 20px;
+  }
+  
+  .back-to-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back-to-home:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,18 @@
+.split-bill-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .member-selection {
+    margin-top: 20px;
+  }
+  
+  .member-selection label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .member-selection input[type="checkbox"] {
+    margin-right: 10px;
+  }

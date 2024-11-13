@@ -1,0 +1,32 @@
+.home-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .members-list {
+    margin-bottom: 20px;
+  }
+  
+  .add-member-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-member-form input {
+    flex-grow: 1;
+  }
+  
+  .split-bill-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .split-bill-link:hover {
+    background-color: #45a049;
+  }
