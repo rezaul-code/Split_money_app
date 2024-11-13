@@ -9,7 +9,7 @@ const SplitBillForm = () => {
   const [selectedMembers, setSelectedMembers] = useState([]);
   const navigate = useNavigate();
 
-  // Mock members data (in a real app, this would come from a backend or global state)
+  
   const members = ['Alice', 'Bob', 'Charlie', 'David'];
 
   const handleSubmit = (e) => {
