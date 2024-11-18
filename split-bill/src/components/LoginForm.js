@@ -16,7 +16,7 @@ const LoginForm = () => {
 
   return (
     <div className="login-form">
-      <h1>Login</h1>
+      <h1>LOGIN</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="email"
@@ -32,14 +32,15 @@ const LoginForm = () => {
           placeholder="Password"
           required
         />
+
+        <Link to="/forgot-password" className='forgot-password'>Forgot password?</Link>
+   
         <button type="submit">Login</button>
       </form>
       <p>
         Don't have an account? <Link to="/signup">Sign up</Link>
       </p>
-      <p>
-        <Link to="/forgot-password">Forgot password?</Link>
-      </p>
+      
     </div>
   );
 };

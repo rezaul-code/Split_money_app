@@ -6,6 +6,7 @@ import '../styles/Login.css';
 const LoginForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [username, setUserName] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
@@ -16,8 +17,15 @@ const LoginForm = () => {
 
   return (
     <div className="login-form">
-      <h1>Login</h1>
+      <h1>SIGN UP</h1>
       <form onSubmit={handleSubmit}>
+      <input
+          type="text"
+          value={username}
+          onChange={(e) => setUserName(e.target.value)}
+          placeholder="Username"
+          required
+        />
         <input
           type="email"
           value={email}
@@ -32,14 +40,12 @@ const LoginForm = () => {
           placeholder="Password"
           required
         />
-        <button type="submit">Login</button>
+        <button type="submit">Register</button>
       </form>
       <p>
-        Don't have an account? <Link to="/signup">Sign up</Link>
+        Already have an account? <Link to="/login">Log in</Link>
       </p>
-      <p>
-        <Link to="/forgot-password">Forgot password?</Link>
-      </p>
+     
     </div>
   );
 };

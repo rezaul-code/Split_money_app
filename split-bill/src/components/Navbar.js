@@ -6,12 +6,13 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <ul>
-        <li><Link to="/login">Login</Link></li>
-        <li><Link to="/signup">Sign Up</Link></li>
+        
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/split-bill">Split Bill</Link></li>
         <li><Link to="/split-summary">Split Summary</Link></li>
-        <li><Link to="/forgot-password">Forgot Password</Link></li>
+        
+        <li><Link to="/login">Login</Link></li>
+        <li><Link to="/signup">Sign Up</Link></li>
       </ul>
     </nav>
   );
